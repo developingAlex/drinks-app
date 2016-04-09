@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Bev Req</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_drink">New Drink</string>
+    <string name="edit_drink">Edit Drink</string>
+    <string name="new_function">New Function</string>
+    <string name="edit_function">Edit Function</string>
+    <string name="title_activity_choose_drinks">Customise Beverage List</string>
+    <string name="title_activity_display_amounts">What you need</string>
+    <string name="function_string">Function type:</string>
+    <string name="pax_string">PAX:</string>
+    <string name="enter_number_hint">Enter a Number</string>
+    <string name="duration_string">Duration:(in hours)</string>
+    <string name="dinner_string">Dinner</string>
+    <string name="pdd_string">Pre-Dinner Drinks?</string>
+    <string name="lunch_string">Lunch</string>
+    <string name="breakfast_string">Breakfast</string>
+    <string name="cocktail_string">Cocktails</string>
+    <string name="button_choose_drinks">Next</string>
+    <string name="button_add_function">Add another function type</string>
+    <string name="button_start_over">Clear all Selections</string>
+    <string name="choose_your_drinks_string">Choose Your drinks</string>
+    <string name="button_calculate">Estimate Numbers</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_add_drink">Add New Drink</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display_message">MyMessage</string>
+    <string name="title_activity_drink_adder">Declare a new drink</string>
+    <string name="text_displayname">Display Name:</string>
+    <string name="text_displayname_hint">Enter a name</string>
+    <string name="button_make_drink">Create Drink</string>
+    <string name="button_make_function">Create Function</string>
+    <string name="cancel_string">Cancel</string>
+    <string name="title_activity_drinks_adder">Add new drink</string>
+    <string name="restore_defaults_string">Restore Defaults</string>
+    <string name="title_activity_edit_drink">Edit Drink</string>
+    <string name="title_activity_new_function">New Function</string>
+    <string name="title_activity_edit_function">Edit Function</string>
+    <string name="title_activity_add_edit_function">AddEditFunction</string>
+    <string name="appbar_scrolling_view_behavior">AppBarLayout.ScrollingViewBehavior</string>
+
+</resources>

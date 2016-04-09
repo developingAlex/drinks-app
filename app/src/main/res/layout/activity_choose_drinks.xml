@@ -1,0 +1,48 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- currently not used, was created to be an intermediate screen
+just before seeing the final screen that displays the amounts of drinks you need.
+The idea was to give the user a chance to remove any drinks that weren't being used for the
+function. But this makes the process messier and is not really needed.
+
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChooseDrinksActivity" >
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutChooseDrinks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_your_drinks_string" />
+            <LinearLayout
+                android:id="@+id/linearLayoutDrinksCheckBoxes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <!-- This is Where the code will generate CheckBoxes. -->
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="estimateButtonClicked"
+                android:text="@string/button_calculate" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
