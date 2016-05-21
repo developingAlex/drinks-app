@@ -20,7 +20,7 @@ import android.content.Context;
  * The situation object can call upon the calculater object to provide the numbers for each drink
  * type.
  * */
-//todo, make this whole thing static. because there will ever only be one instance
+//TODO: make this whole thing static. because there will ever only be one instance
 public class Situation {
     public static ArrayList<Drink> globalDrinksList;//to be initialised from file but never modified
     public static ArrayList<String> globalFunctionsList;//to be initialised from file but never modified
