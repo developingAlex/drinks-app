@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import android.widget.Toast;
 
-public class simpleCalculater implements Calculater {
+public class simpleCalculator implements Calculator {
 
     @Override
     public int[] getAmounts(ArrayList<Drink> globaldrinks, int pax,
