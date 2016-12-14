@@ -17,6 +17,27 @@ import android.content.Context;
  * duration
  * list of drinks that are taken off the menu
  *
+ * update 14/12/2016: The situation object was originally created to handle the case where a user
+ * may wish to indicate to the app that the function they are to cater for is a dinner for 2 hours
+ * with pre dinner drinks for 1 hour, to do so they would have to declare two different functions
+ * one is pre dinner drinks function which goes for an hour
+ * the other is a dinner function which goes for 2 hours
+ * and the app would then work out the appropriate amount of drinks to display.
+ *
+ * given that in reality the pre dinner drinks are always just a typical fraction of the total time
+ * of the whole event, it becomes too onerous on the user to have to enter information twice,
+ * so it will instead be a choice of three different functions to cover the scenarios:
+ * dinner, dinner with pre dinner drinks, cocktails.
+ *
+ * this functionality (of being able to string different types of functions together for the sake
+ * of one function ) can therefore be removed as the need to be able to take such input can be
+ * handled in the smoother way of just offering the user a choice of different functions, and they
+ * will just pick the most appropriate one, instead of the original idea of for example offering a
+ * dinner function and a Pre Dinner Drinks (PDD) function and relying on the user to declare a PDD
+ * function that goes for x hours as well as a dinner function that goes for y hours. I don't
+ * see a need to offer the ability to string multiple functions together in this way if enough
+ * descriptive functions are there to choose from in the first place. 
+ *
  * The situation object can call upon the calculater object to provide the numbers for each drink
  * type.
  * */
